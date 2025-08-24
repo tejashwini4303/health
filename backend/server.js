@@ -23,5 +23,5 @@ mongoose.connect('mongodb://127.0.0.1:27017/healthDB', {
   app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 })
 .catch((err) => {
-  console.error('MongoDB connection error:', err);
+  console.error('MongoDB will be connection error:', err);
 });
